@@ -648,9 +648,6 @@
         }
         
         @media (max-width: 800px) {
-            .background1 {
-                width: 800px;
-            }
             .container {
                 width: 600px;
             }
@@ -658,7 +655,7 @@
                 font-size: 9px;
             }
             .container2 {
-                width: 800px;
+                width: 600px;
             }
             .about_frame {
                 font-size: 16px;
@@ -705,24 +702,15 @@
                 padding: 10px;
                 box-sizing: border-box;
             }
-            .types {
-                width: 800px;
-            }
-            .studios {
-                width: 800px;
-            }
-            .contacts {
-                width: 800px;
-            }
         }
         
         @media (max-width: 400px) {
-            .background1 {
-                width: 400px;
-            }
             .container {
                 width: 370px;
                 flex-wrap: wrap;
+            }
+            .container2 {
+                width: 400px;
             }
             .name {
                 font-size: 20px;
@@ -755,9 +743,6 @@
             }
             .header_up_3 {
                 margin-left: 0px;
-            }
-            .container2 {
-                width: 400px;
             }
             .about_frame {
                 font-size: 14px;
@@ -813,15 +798,6 @@
             .info {
                 padding: 10px;
                 box-sizing: border-box;
-            }
-            .types {
-                width: 400px;
-            }
-            .studios {
-                width: 400px;
-            }
-            .contacts {
-                width: 400px;
             }
             .tarifs {
                 flex-direction: column;

@@ -661,9 +661,6 @@
 }
 
 @media (max-width: 800px) {
-    .background1 {
-        width: 800px;
-    }
     .container {
         width: 600px;
     }
@@ -718,15 +715,6 @@
         padding: 10px;
         box-sizing: border-box;
     }
-    .types {
-        width: 800px;
-    }
-    .studios {
-        width: 800px;
-    }
-    .contacts {
-        width: 800px;
-    }
     .main_block {
         width: calc(100% / 2 - 15px);
         padding: 10px;
@@ -735,9 +723,6 @@
 }
 
 @media (max-width: 400px) {
-    .background1 {
-        width: 400px;
-    }
     .container {
         width: 370px;
         flex-wrap: wrap;
@@ -831,15 +816,6 @@
     .info {
         padding: 10px;
         box-sizing: border-box;
-    }
-    .types {
-        width: 400px;
-    }
-    .studios {
-        width: 400px;
-    }
-    .contacts {
-        width: 400px;
     }
     .tarifs {
         flex-direction: column;
