@@ -16,6 +16,22 @@
             justify-content: flex-start;
         }
         
+        .menu-java {
+            display: none;
+        }
+        
+        .menu_about__java {
+            font-family: 'Raleway', sans-serif;
+            font-size: 13px;
+            color: #B9B5BD;
+            padding: 5px;
+            width: calc(50% / 3);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+        }
+        
         .container2 {
             width: 1000px;
             display: flex;
@@ -45,7 +61,8 @@
             font-family: 'Raleway', sans-serif;
             font-size: 13px;
             color: #B9B5BD;
-            padding: 5px;
+            padding-top: 10px;
+            padding-right: 0;
             width: calc(50% / 5);
             display: flex;
             justify-content: center;
@@ -563,9 +580,38 @@
         @media (max-width: 800px) {
             .container {
                 width: 600px;
+                justify-content: space-between;
+            }
+            .menu {
+                display: none;
+            }
+            .menu-java {
+                background-color: #202021;
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
+            .menu_about__java {
+                font-size: 9px;
+                background-color: black;
+                border-radius: 0%;
+                border: #000000;
+            }
+            .containerMenu {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 35px;
+                right: 0;
             }
             .menu_about {
-                font-size: 9px;
+                width: 100%;
+                justify-content: flex-start;
+                font-size: 10px;
+                background-color: #e89c2b70;
             }
             .container2 {
                 width: 800px;
@@ -631,26 +677,60 @@
         }
         
         @media (max-width: 400px) {
+            .menu {
+                display: none;
+            }
+            .menu-java {
+                background-color: #202021;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
             .container {
                 width: 370px;
                 flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .container2 {
+                width: 400px;
+            }
+            .containerMenu {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 35px;
+                right: 0;
             }
             .name {
                 font-size: 20px;
-                width: calc(100% / 10 * 5);
+                width: calc(100% / 3);
                 box-sizing: border-box;
                 padding-bottom: 10px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
             }
-            .menu_about {
-                font-size: 9px;
-                width: 100%;
+            .menu_about__java {
+                font-size: 11px;
+                width: calc(100% / 7);
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 padding-top: 10px;
+                box-sizing: border-box;
+                padding-bottom: 10px;
+                background-color: black;
+                border-radius: 0%;
+                border: #000000;
+            }
+            .menu_about {
+                width: 100%;
+                justify-content: flex-start;
+                font-size: 10px;
+                background-color: #e89c2b70;
             }
             .up2 {
                 font-size: 25px;
